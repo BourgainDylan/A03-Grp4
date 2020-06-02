@@ -4,35 +4,34 @@
     margin: 0;
 }
 
-body {
-    width: 500px;
-    height: 500px;
-
-}
-
 #tangram {
     position: relative;
     height: 100%;
     width: 100%;
-    margin-left:50px;
- 
+    margin-left: 50px;
+
 
 }
 
-
 #figure1 {
-
-    border-top: 500px solid #99cc33;
-    border-right: 500px solid transparent;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 200px solid #99cc33;
+    border-right: 200px solid transparent;
+    position: absolute;
 
 }
 
 
 #figure2 {
 
-    width: 500px;
-    height: 250px;
+    width: 200px;
+    height: 100px;
     background-color: #6666cc;
+    display: inline-block;
+    transform: skewX(-45deg);
+    position: absolute;
 
 
 }
@@ -41,34 +40,60 @@ body {
 
 #figure3 {
 
-    width: 350px;
-    height:  350px;
+    width: 150px;
+    height: 150px;
     background-color: #ff6666;
+    display: inline-block;
+    position: absolute;
+
 
 
 }
 
 
 #figure4 {
-    border-top: 250px solid transparent;
-    border-left: 250px solid #ff9933;
-    border-bottom: 250px solid transparent;
+
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #ff9933;
+    border-right: 150px solid transparent;
+    position: absolute;
+
+
+
 
 
 }
 
 #figure5 {
 
-    border-top: 500px solid transparent;
-    border-left: 500px solid #ffcc00;
-    border-bottom: 500px solid transparent;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 300px solid #ffcc00;
+    border-right: 300px solid transparent;
+    position: absolute;
+
+
+
+
+
 }
 
 #figure6 {
 
-    border-top: 250px solid transparent;
-    border-bottom: 250px solid transparent;
-    border-left: 250px solid #3399ff;
+
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #3399ff;
+    border-right: 150px solid transparent;
+    position: absolute;
+
+
+
+
 }
 
 
@@ -77,8 +102,15 @@ body {
 #figure7 {
 
 
-    border-top: 500px solid transparent;
-    border-left: 500px solid #33cc65;
-    border-bottom: 500px solid transparent;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 300px solid #33cc65;
+    border-right: 300px solid transparent;
+    position: absolute;
+
+
+
+
 
 }
