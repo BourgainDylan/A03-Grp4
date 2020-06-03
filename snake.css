@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#tangram {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+/* Big triangle, light green */
+#figure1 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 200px solid #99cc33;
+    border-right: 200px solid transparent;
+    position: absolute;
+    rotate: 180deg;
+    top: 351px;
+    left: 859px;
+}
+
+
+/* Parallelogram, violet */
+#figure2 {
+    width: 200px;
+    height: 100px;
+    background-color: #6666cc;
+    display: inline-block;
+    transform: skewX(-45deg);
+    position: absolute;
+    top: 550px;
+    left: 390px;
+}
+
+
+/* Square, red */
+#figure3 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff6666;
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    left: 1059px;
+}
+
+/* Triangle, orange */
+#figure4 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #ff9933;
+    border-right: 150px solid transparent;
+    position: absolute;
+    rotate: 225deg;
+    top: 277px;
+    left: 1243px;
+}
+
+
+/* Big triangle, yellow */
+#figure5 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 300px solid #ffcc00;
+    border-right: 300px solid transparent;
+    position: absolute;
+    rotate: 225deg;
+    top: 401px;
+    left: 700px;
+}
+
+
+/* Triangle, blue */
+#figure6 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #3399ff;
+    border-right: 150px solid transparent;
+    position: absolute;
+    rotate: 270deg;
+    top: 350px;
+    left: 1210px;
+}
+
+
+/*Big triangle, darkish green */
+#figure7 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 300px solid #33cc65;
+    border-right: 300px solid transparent;
+    position: absolute;
+    rotate: 45deg;
+    top: 400px;
+    left: 500px;
+}
